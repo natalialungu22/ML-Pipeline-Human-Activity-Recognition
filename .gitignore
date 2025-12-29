@@ -1,0 +1,8 @@
+# Data
+data/raw/
+
+# OS junk
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
