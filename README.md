@@ -56,6 +56,17 @@ The dataset contains **561 numerical features**, making it suitable for **dimens
 
 5. Feature engineering (scaling, PCA)
 
+#### Dimensionality Reduction (PCA)
+
+Principal Component Analysis (PCA) was applied after feature standardization to reduce the original 561-dimensional feature space.
+
+Analysis of the cumulative explained variance showed that:
+
+- Approximately **90% of variance** is retained with **65 components**
+- Approximately **95% of variance** is retained with **104 components**
+
+This enabled significant dimensionality reduction while preserving most of the information content, improving computational efficiency and reducing noise for downstream models.
+
 6. Model selection and training
 
 7. Hyperparameter tuning
